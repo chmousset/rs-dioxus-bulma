@@ -75,7 +75,7 @@ fn AddonWrapper(
 }
 
 #[component]
-fn FieldWrapper(
+pub fn FieldWrapper(
     label: Option<String>,
     help: Option<String>,
     icon_left: Option<String>,
